@@ -25,7 +25,7 @@ rl.on("line", (input) => {
     let multipleNum = 1;
 
     while ([...digits].length < 10) {
-      const computedNum = input * multipleNum;
+      const computedNum = num * multipleNum;
       for (const n of computedNum.toString()) {
         digits.add(n);
       }
